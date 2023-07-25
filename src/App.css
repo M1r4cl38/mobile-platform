@@ -4,3 +4,8 @@
   padding: 3rem;
   justify-content: center;
 }
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
