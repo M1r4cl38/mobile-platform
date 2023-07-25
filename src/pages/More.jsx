@@ -6,5 +6,5 @@ export function More() {
         <div>
             More
         </div>
-    )
+    );
 }

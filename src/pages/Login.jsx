@@ -6,5 +6,5 @@ export function Login() {
         <div>
             Login
         </div>
-    )
+    );
 }

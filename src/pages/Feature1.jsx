@@ -6,5 +6,5 @@ export function Feature1() {
         <div>
             Feature1
         </div>
-    )
+    );
 }

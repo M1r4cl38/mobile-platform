@@ -22,5 +22,5 @@ export function Register() {
         </div>
       </form>
     </div>
-    )
+    );
 }

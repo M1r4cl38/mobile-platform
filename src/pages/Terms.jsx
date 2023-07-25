@@ -6,5 +6,5 @@ export function Terms() {
         <div>
             Terms of service
         </div>
-    )
+    );
 }

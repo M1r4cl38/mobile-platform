@@ -6,5 +6,5 @@ export function Home() {
         <div>
             Home content
         </div>
-    )
+    );
 }
