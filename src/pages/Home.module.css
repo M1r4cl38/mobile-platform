@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+.logo {
+    width: 11rem;
+    border-radius: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.button {
+    width: 13rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: darkcyan;
+    color: white;
+    font-family:  'Kalam', cursive;;
+}
