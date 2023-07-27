@@ -9,6 +9,6 @@ body * {
 body {
   min-height: 100vh;
   font-family: 'Kalam', cursive;
-  background: #dbdbf8;
+  background: linear-gradient(to bottom, #5396e2 0%, #ff99cc 100%);
 }
 

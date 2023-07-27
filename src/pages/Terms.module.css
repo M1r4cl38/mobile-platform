@@ -14,7 +14,7 @@
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     border-radius: 1rem;
-    background-color: rgb(10, 191, 191);
+    background-color: rgb(68, 126, 208);
     color: white;
     font-family:  'Kalam', cursive;
     text-decoration: none;
@@ -31,7 +31,7 @@
 
 .text {
    font-size: 1rem;
-   color: grey;
+   color: rgb(255, 255, 255);
 }
 
 h2 {
