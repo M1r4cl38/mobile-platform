@@ -1,4 +1,5 @@
 import style from './Login.module.css';
+import { Link } from 'react-router-dom';
 
 
 export function Login() {
@@ -13,11 +14,11 @@ export function Login() {
         <input className={style.input} type="password" placeholder="Password"/>
         </div>
         <div className={style.row}>
-          <button className={style.button} type="submit">Login</button>
+          <Link to ='/main' className={style.button}>Login</Link>
         </div>
         <p className={style.text}>or</p>
         <div className={style.row}>
-          <button className={style.button} type="submit">Register</button>
+          <Link to ='/register' className={style.button}>Register</Link>
         </div>
       </form>
     </div>

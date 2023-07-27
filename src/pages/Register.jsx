@@ -1,4 +1,5 @@
 import style from './Register.module.css';
+import { Link } from 'react-router-dom';
 
 
 export function Register() {
@@ -17,15 +18,15 @@ export function Register() {
         </div>
         <div className={style.check}>
           <input type="checkbox" />
-          <p>Agree to our TOS</p>
-          <a className={style.link} href='#'>(read)</a>
+          <p className={style.text}>Agree to our TOS</p>
+          <Link to ='/terms' className={style.linkterms}>(read)</Link>
         </div>
         <div className={style.row}>
-          <button className={style.button} type="submit">Register</button>
+          <Link to ='/login' className={style.button}>Register</Link>
         </div>
         <p className={style.text}>or</p>
         <div className={style.row}>
-          <button className={style.button} type="submit">Login</button>
+          <Link to ='/login' className={style.button}>Login</Link>
         </div>
       </form>
     </div>

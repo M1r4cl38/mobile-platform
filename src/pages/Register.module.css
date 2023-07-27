@@ -5,6 +5,8 @@
 }
 
 .button {
+    display: flex;
+    justify-content: space-around;
     width: 16rem;
     font-size: 1.5rem;
     margin-top: 0rem;
@@ -14,6 +16,7 @@
     background-color: rgb(10, 191, 191);
     color: white;
     font-family:  'Kalam', cursive;
+    text-decoration: none;
   }
 
 .form {
@@ -41,7 +44,7 @@
 }
 
 .text {
-   font-size: 1.5rem;
+   font-size: 1.3rem;
 }
 
 .check {
@@ -52,11 +55,11 @@
     font-size: 1.3rem;
 }
 
-.link {
+.linkterms {
     text-decoration: none;
     color: black;
 }
 
-.link:hover {
+.linkterms:hover {
     color: rgb(35, 186, 186);
 }

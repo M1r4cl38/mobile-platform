@@ -8,13 +8,15 @@
 
 .title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 6rem;    
+    color: crimson;
+    padding-top: 3rem;
 }
 
 .link{
     width: 13rem;
     font-size: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding-top: 0.9rem;
     padding-bottom: 0.9rem;
     padding-left: 3.5rem;
@@ -29,7 +31,3 @@
     font-size: 2rem;
   }
 
-  h1 {
-    color: crimson;
-    padding-top: 3rem;
-  }

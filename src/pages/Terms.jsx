@@ -1,4 +1,5 @@
 import style from './Terms.module.css';
+import { Link } from 'react-router-dom';
 
 
 export function Terms() {
@@ -14,7 +15,7 @@ export function Terms() {
             <p className={style.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui saepe quibusdam dicta corporis, aliquam minima?</p>
         </div>
         <div className={style.row}>
-            <button className={style.button} type="submit">Back</button>
+            <Link to ='/register' className={style.button}>Back</Link>
         </div>
     </div>
     );

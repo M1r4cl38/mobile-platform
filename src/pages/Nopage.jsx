@@ -1,4 +1,5 @@
 import style from './Nopage.module.css';
+import { Link } from 'react-router-dom';
 
 
 export function Nopage() {
@@ -6,7 +7,7 @@ export function Nopage() {
         <div className={style.nopage}>
             <h1 className={style.title}>404</h1>
             <p>Page not found</p>
-            <a className={style.link} href="/">Go home</a>
+            <Link to ='/' className={style.link}>Go home</Link>
         </div>
     );
 }
