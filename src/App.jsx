@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 import style from './App.module.css';
-import { Feature3 } from "./pages/Feature 3";
-import { Feature1 } from "./pages/Feature1";
+import { Feature3 } from "./pages/Feature3";
+import { Features } from "./pages/Features";
 import { Feature2 } from "./pages/Feature2";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
@@ -22,9 +22,9 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/main" element={<Main />} />
           <Route path="/more" element={<More />} />
-          <Route path="/feature1" element={<Feature1 />} />
-          <Route path="/feature2" element={<Feature2 />} />
-          <Route path="/feature3" element={<Feature3 />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/features/:featureId" element={<Feature2 />} />
+          <Route path="/features/:featureId" element={<Feature3 />} />
         </Routes>
       </BrowserRouter>
     </div>
