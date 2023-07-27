@@ -10,6 +10,8 @@ import { Main } from "./pages/Main";
 import { More } from "./pages/More";
 import { Register } from "./pages/Register";
 import { Terms } from "./pages/Terms";
+import { Nopage } from "./pages/Nopage";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/" element={<Home />} />
+          <Route path="/*" element={<Nopage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/terms" element={<Terms />} />
