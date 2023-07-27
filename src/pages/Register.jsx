@@ -10,10 +10,10 @@ export function Register() {
           <input className={style.input} type="text" placeholder="Name"/>
         </div>
         <div className={style.row}>
-        <input className={style.input} type="text" placeholder="Email"/>
+        <input className={style.input} type="email" placeholder="Email"/>
         </div>
         <div className={style.row}>
-        <input className={style.input} type="text" placeholder="Password"/>
+        <input className={style.input} type="password" placeholder="Password"/>
         </div>
         <div className={style.check}>
           <input type="checkbox" />
