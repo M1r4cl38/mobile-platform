@@ -8,48 +8,48 @@ export function More() {
     const data = [
         {
             icon: <VscCircleFilled />,
-            title: 'Shopping carts',
+            link: <Link to='#'>Shopping carts</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'Product catalog',
+            link: <Link to='#'>Product catalog</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'Shops',
+            link: <Link to='#'>Shops</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'New shopping chart',
+            link: <Link to='#'>New shopping cart</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'New product',
+            link: <Link to='#'>New product</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'New shop',
+            link: <Link to='#'>New shop</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'Acount',
+            link: <Link to='#'>Acount</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'Settings',
+            link: <Link to='#'>Settings</Link>,
         },
         {
             icon: <VscCircleFilled />,
-            title: 'Sign out',
+            link: <Link to='/'>Sign out</Link>,
         },
     ]
     return (
-        <div>
+        <div className={style.try}>
             <div className={style.header}>
                 <Link className={style.close} to ='/main'><GrClose /></Link> 
             </div>
             <div className={style.list}>
-                 {data.map(task => <p className={style.text}>{task.icon} {task.title}</p>)}
+                 {data.map(task => <p className={style.text}>{task.icon} {task.link}</p>)}
             </div>
         </div>
     );
