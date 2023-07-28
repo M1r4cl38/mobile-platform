@@ -33,6 +33,6 @@ _(for 404 page, "*" means any other unavailable page)_
 
 ## Project Screenshots:
 
-![Home](../mobile-platform/src/img/homepage.png)
-![Feature](../mobile-platform/src/img/featurepage.png)
-![Register](../mobile-platform/src/img/registerpage.png)
+![registerpage](https://github.com/M1r4cl38/mobile-platform/assets/127200910/e70bd694-ca84-4c64-8805-9420d8a516fd)
+![featurepage](https://github.com/M1r4cl38/mobile-platform/assets/127200910/d5035303-7720-4fa6-a9f9-2a67c1c34b1e)
+![homepage](https://github.com/M1r4cl38/mobile-platform/assets/127200910/3eaf3b86-bfa2-4d49-93cc-6087b31d1b9c)
