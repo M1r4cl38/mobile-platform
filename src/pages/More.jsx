@@ -2,6 +2,7 @@ import style from './More.module.css';
 import { GrClose } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
 import { VscCircleFilled } from 'react-icons/vsc';
+import { VscCircle } from 'react-icons/vsc';
 
 
 export function More() {
@@ -19,15 +20,15 @@ export function More() {
             link: <Link to='#'>Shops</Link>,
         },
         {
-            icon: <VscCircleFilled />,
+            icon: <VscCircle />,
             link: <Link to='#'>New shopping cart</Link>,
         },
         {
-            icon: <VscCircleFilled />,
+            icon: <VscCircle />,
             link: <Link to='#'>New product</Link>,
         },
         {
-            icon: <VscCircleFilled />,
+            icon: <VscCircle />,
             link: <Link to='#'>New shop</Link>,
         },
         {
