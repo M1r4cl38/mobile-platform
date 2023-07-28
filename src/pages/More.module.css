@@ -1,0 +1,14 @@
+.close {
+    font-size: 4.5rem;
+    position: absolute;
+    left: 17.5rem;
+    top: 3rem;
+}
+
+.list {
+    padding-top: 8rem;
+}
+
+.text {
+    font-size: 1.7rem;
+}
